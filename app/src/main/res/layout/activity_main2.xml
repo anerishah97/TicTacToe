@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.example.admin.myapplication.Main2Activity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/final_bg"
+        android:orientation="vertical">
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.8"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16sp"
+                android:gravity="center"
+                android:fontFamily="casual"
+                android:textColor="#fff"
+                android:layout_marginLeft="25dp"
+                android:text="@string/player_1"
+                android:textSize="32sp" />
+
+            <TextView
+                android:id="@+id/match_num"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Match num:1"
+                android:visibility="gone"
+                android:textColor="#fff"
+                android:textSize="20sp"
+             android:layout_margin="16dp"
+                android:gravity="center"
+                android:fontFamily="casual"
+                />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/reset"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Reset"
+                    android:textColor="#fff"
+
+                    android:gravity="center"
+                    android:textSize="25sp"
+                    android:layout_margin="16dp"
+                    android:clickable="true"
+                    android:fontFamily="casual"
+                    android:onClick="onClick"/>
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="16dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+
+
+            <TextView
+                android:id="@+id/b1"
+                style="@style/PlayBoxes"
+                android:onClick="onClick" />
+
+            <View
+                android:layout_width="3dp"
+                android:layout_height="match_parent"
+                android:background="#e0e0e0" />
+
+            <TextView
+                android:id="@+id/b2"
+                style="@style/PlayBoxes"
+                android:onClick="onClick"/>
+
+            <View
+                android:layout_width="3dp"
+                android:layout_height="match_parent"
+                android:background="#e0e0e0" />
+
+            <TextView
+                android:id="@+id/b3"
+                style="@style/PlayBoxes"
+                android:onClick="onClick"/>
+
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:background="#e0e0e0" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:id="@+id/b4"
+                style="@style/PlayBoxes"
+                android:onClick="onClick"/>
+
+            <View
+                android:layout_width="3dp"
+                android:layout_height="match_parent"
+                android:background="#eee" />
+
+            <TextView
+                android:id="@+id/b5"
+                style="@style/PlayBoxes"
+                android:onClick="onClick"/>
+
+            <View
+                android:layout_width="3dp"
+                android:layout_height="match_parent"
+                android:background="#eee" />
+
+            <TextView
+                android:id="@+id/b6"
+                style="@style/PlayBoxes"
+                android:onClick="onClick"/>
+
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:background="#e0e0e0" />
+
+
+        <LinearLayout
+            android:id="@+id/linear3"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/b7"
+                style="@style/PlayBoxes"
+                android:onClick="onClick"/>
+
+
+            <View
+                android:layout_width="3dp"
+                android:background="#E0E0E0"
+                android:layout_height="match_parent">
+
+            </View>
+               <!-- android:background="#5D4037" -->
+
+            <TextView
+                android:id="@+id/b8"
+                style="@style/PlayBoxes"
+                android:onClick="onClick"/>
+
+            <View
+                android:layout_width="3dp"
+                android:layout_height="match_parent"
+                android:background="#E0E0E0"/>
+
+            <TextView
+                android:id="@+id/b9"
+                style="@style/PlayBoxes"
+                android:onClick="onClick"/>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_below="@id/linear3"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="horizontal"
+            android:layout_weight="0.6">
+
+            <TextView
+                style="@style/Labels"
+                android:text="X-wins" />
+
+            <TextView
+                style="@style/Labels"
+                android:text="0-wins" />
+
+            <TextView
+                style="@style/Labels"
+                android:text="Draw" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:paddingBottom="20dp"
+            android:orientation="horizontal"
+            android:layout_weight="0.6">
+
+            <TextView style="@style/ScoreCards"
+                android:id="@+id/Xwins"/>
+
+            <TextView style="@style/ScoreCards"
+                android:id="@+id/Ywins"/>
+
+            <TextView style="@style/ScoreCards"
+                android:id="@+id/Draw"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Tic Tac Toe</string>
+    <string name="player_1">Player 1</string>
+    <string name="pkayer_2">Player 2</string>
+    <string name="rules1">The objective of the game is to get a pattern of three along a row, column or diagonal.
+        The first player is X and the second is O. Both the players alternately place X and O on the game board until either opponent has wins or all nine squares are filled.
+        If X plays first in the first match, then O plays first in the next one.
+       </string>
+    <string name="rules2">Tournament mode: In this mode, you get to select the number of matches and
+        then compete with your friend to see who wins maximum number of matches.</string>
+</resources>

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <LinearLayout
+        android:orientation="vertical" android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:scrollbars="vertical"
+        android:scrollbarAlwaysDrawVerticalTrack="true">
+
+        <TextView
+            android:id="@+id/one"
+            android:layout_margin="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:text="1"
+            android:textSize="30sp"
+            android:onClick="getNumberOfMatches"/>
+
+        <TextView
+            android:id="@+id/two"
+            android:layout_margin="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:text="2"
+            android:textSize="30sp"
+            android:onClick="getNumberOfMatches"/>
+
+        <TextView
+            android:id="@+id/three"
+            android:layout_margin="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:text="3"
+            android:textSize="30sp"
+            android:onClick="getNumberOfMatches"/>
+
+        <TextView
+            android:id="@+id/four"
+            android:layout_margin="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:text="4"
+            android:textSize="30sp"
+            android:onClick="getNumberOfMatches"/>
+
+        <TextView
+            android:id="@+id/five"
+            android:layout_margin="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:text="5"
+            android:textSize="30sp"
+            android:onClick="getNumberOfMatches"/>
+
+        <TextView
+            android:id="@+id/six"
+            android:layout_margin="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:text="6"
+            android:textSize="30sp"
+            android:onClick="getNumberOfMatches"/>
+
+        <TextView
+            android:id="@+id/seven"
+            android:layout_margin="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:text="7"
+            android:textSize="30sp"
+            android:onClick="getNumberOfMatches"/>
+
+        <TextView
+            android:id="@+id/eight"
+            android:layout_margin="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:text="8"
+            android:textSize="30sp"
+            android:onClick="getNumberOfMatches"/>
+
+        <TextView
+            android:id="@+id/nine"
+            android:layout_margin="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:text="9"
+            android:textSize="30sp"
+            android:onClick="getNumberOfMatches"/>
+
+        <TextView
+            android:id="@+id/ten"
+            android:layout_margin="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:text="10"
+            android:textSize="30sp"
+            android:onClick="getNumberOfMatches"/>
+
+        <TextView
+            android:id="@+id/eleven"
+            android:layout_margin="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:text="11"
+            android:textSize="30sp"
+            android:onClick="getNumberOfMatches"/>
+
+        <TextView
+            android:id="@+id/twelve"
+            android:layout_margin="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:text="12"
+            android:textSize="30sp"
+            android:onClick="getNumberOfMatches"/>
+
+    </LinearLayout>
+</ScrollView>
